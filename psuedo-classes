@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>psuedo-classes</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+    <style>
+        /*Hover effect on button*/
+    button:hover {
+        background-color: blue;
+        cursor:pointer;
+    } 
+    li:first-child{
+    color:turquoise;
+    }
+    li:last-child{
+    color: brown;
+    }  
+    li:nth-last-child(2){
+        font-weight: bolder;
+        color: blueviolet;
+    }  
+    input:focus{
+        border: 2px dooted seagreen; 
+    }
+    </style>
+</head>
+<body>
+    <h1>psuedo-classes</h1>
+    <button>Hover over menu</button>
+    <ul>
+        <input type="text" placeholder="focus me!"><br>
+        <input type="checkbox" id="check1">
+        <label for="check1">check me</label>
+</body>
+</html>
